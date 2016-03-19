@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: c5d47d9e5a3db6e42aed9b516182109d
+timeCreated: 1458225839
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: All_Legs_Bone
+    100002: Bone_for_Legss
+    100004: Door_Bone_Open
+    100006: Empty
+    100008: Plane
+    100010: Shuttle_000
+    100012: Shuttle_001
+    100014: Shuttle_002
+    100016: Shuttle_003
+    100018: Shuttle_004
+    100020: Shuttle_005
+    100022: Shuttle_006
+    100024: Shuttle_007
+    100026: Shuttle_008
+    100028: Shuttle_010
+    100030: Shuttle_011
+    100032: Shuttle_012
+    100034: Shuttle_013
+    100036: Shuttle_014
+    100038: Shuttle_015
+    100040: Shuttle_024
+    100042: Shuttle_All_Mover
+    100044: //RootNode
+    400000: All_Legs_Bone
+    400002: Bone_for_Legss
+    400004: Door_Bone_Open
+    400006: Empty
+    400008: Plane
+    400010: Shuttle_000
+    400012: Shuttle_001
+    400014: Shuttle_002
+    400016: Shuttle_003
+    400018: Shuttle_004
+    400020: Shuttle_005
+    400022: Shuttle_006
+    400024: Shuttle_007
+    400026: Shuttle_008
+    400028: Shuttle_010
+    400030: Shuttle_011
+    400032: Shuttle_012
+    400034: Shuttle_013
+    400036: Shuttle_014
+    400038: Shuttle_015
+    400040: Shuttle_024
+    400042: Shuttle_All_Mover
+    400044: //RootNode
+    2300000: All_Legs_Bone
+    2300002: Bone_for_Legss
+    2300004: Door_Bone_Open
+    2300006: Plane
+    2300008: Shuttle_000
+    2300010: Shuttle_001
+    2300012: Shuttle_002
+    2300014: Shuttle_003
+    2300016: Shuttle_004
+    2300018: Shuttle_005
+    2300020: Shuttle_006
+    2300022: Shuttle_007
+    2300024: Shuttle_008
+    2300026: Shuttle_010
+    2300028: Shuttle_011
+    2300030: Shuttle_012
+    2300032: Shuttle_013
+    2300034: Shuttle_014
+    2300036: Shuttle_015
+    2300038: Shuttle_024
+    2300040: Shuttle_All_Mover
+    3300000: All_Legs_Bone
+    3300002: Bone_for_Legss
+    3300004: Door_Bone_Open
+    3300006: Plane
+    3300008: Shuttle_000
+    3300010: Shuttle_001
+    3300012: Shuttle_002
+    3300014: Shuttle_003
+    3300016: Shuttle_004
+    3300018: Shuttle_005
+    3300020: Shuttle_006
+    3300022: Shuttle_007
+    3300024: Shuttle_008
+    3300026: Shuttle_010
+    3300028: Shuttle_011
+    3300030: Shuttle_012
+    3300032: Shuttle_013
+    3300034: Shuttle_014
+    3300036: Shuttle_015
+    3300038: Shuttle_024
+    3300040: Shuttle_All_Mover
+    4300000: All_Legs_Bone
+    4300002: Bone_for_Legss
+    4300004: Shuttle_All_Mover
+    4300006: Door_Bone_Open
+    4300008: Plane
+    4300010: Shuttle_015
+    4300012: Shuttle_014
+    4300014: Shuttle_013
+    4300016: Shuttle_012
+    4300018: Shuttle_011
+    4300020: Shuttle_010
+    4300022: Shuttle_008
+    4300024: Shuttle_002
+    4300026: Shuttle_007
+    4300028: Shuttle_006
+    4300030: Shuttle_005
+    4300032: Shuttle_004
+    4300034: Shuttle_003
+    4300036: Shuttle_000
+    4300038: Shuttle_024
+    4300040: Shuttle_001
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
