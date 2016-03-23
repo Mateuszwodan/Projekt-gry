@@ -12,7 +12,7 @@ public class camera : MonoBehaviour {
     void Update()
     {
         float rotation = 0f;
-        Vector3 stala = new Vector3(a[xxx], 60f, b[xxx]);
+        Vector3 stala = new Vector3(a[xxx], 40f, b[xxx]);
         Vector3 nowaPozycja = stala + pojazd.transform.position;
         transform.position = Vector3.Lerp(transform.position, nowaPozycja, Time.deltaTime * 2f);
         

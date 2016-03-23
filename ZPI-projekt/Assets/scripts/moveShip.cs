@@ -16,12 +16,12 @@ public class moveShip : MonoBehaviour {
         float rotation = 0f;
         
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.D))
         {
             rotation = rotation + 2f;
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.A))
         {
             rotation = rotation - 2f;
         }
