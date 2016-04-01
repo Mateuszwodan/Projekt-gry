@@ -48,6 +48,7 @@
      <Compile Include="Assets\scripts\camera.cs" />
      <Compile Include="Assets\scripts\moveShip.cs" />
      <Compile Include="Assets\scripts\sun.cs" />
+     <None Include="Assets\models\efekty broni\wystrzał\materials\AdditiveTintable.shader" />
      <None Include="Assets\models\tank\Additional.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>X:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
