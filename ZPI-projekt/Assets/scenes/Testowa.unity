@@ -342,10 +342,61 @@ Prefab:
 --- !u!1001 &395618823
 Prefab:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD:ZPI-projekt/Assets/Glowna.unity
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 289043333}
+  m_LocalRotation: {x: 0.40821794, y: -0.23456973, z: 0.109381676, w: 0.87542605}
+  m_LocalPosition: {x: 1511, y: 540, z: -2376}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+--- !u!1001 &399306272
+Prefab:
+  m_ObjectHideFlags: 0
+=======
+>>>>>>> bc9482e3b948ccf560e83cb24ae21069d60d03f5:ZPI-projekt/Assets/scenes/Testowa.unity
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD:ZPI-projekt/Assets/Glowna.unity
+    - target: {fileID: 410652, guid: 0f3c73ef841f5454c9e82d67bcbf20ef, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -119.4724
+      objectReference: {fileID: 0}
+    - target: {fileID: 410652, guid: 0f3c73ef841f5454c9e82d67bcbf20ef, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.00036621094
+      objectReference: {fileID: 0}
+    - target: {fileID: 410652, guid: 0f3c73ef841f5454c9e82d67bcbf20ef, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -145.02754
+      objectReference: {fileID: 0}
+    - target: {fileID: 410652, guid: 0f3c73ef841f5454c9e82d67bcbf20ef, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 410652, guid: 0f3c73ef841f5454c9e82d67bcbf20ef, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.49999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 410652, guid: 0f3c73ef841f5454c9e82d67bcbf20ef, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.49999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 410652, guid: 0f3c73ef841f5454c9e82d67bcbf20ef, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 410652, guid: 0f3c73ef841f5454c9e82d67bcbf20ef, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0f3c73ef841f5454c9e82d67bcbf20ef, type: 2}
+=======
     - target: {fileID: 437108, guid: 7544220aa6b111b4bafe2d0abdf5b93d, type: 2}
       propertyPath: m_LocalPosition.x
       value: 25.285048
@@ -384,6 +435,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7544220aa6b111b4bafe2d0abdf5b93d, type: 2}
+>>>>>>> bc9482e3b948ccf560e83cb24ae21069d60d03f5:ZPI-projekt/Assets/scenes/Testowa.unity
   m_IsPrefabParent: 0
 --- !u!1001 &401744402
 Prefab:
@@ -627,6 +679,52 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 72569dbb7f5ed8248a738509e2455e76, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &572169424
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 496870, guid: a3ace4cd0b1d90c46bb9bf09977be01e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -144.13974
+      objectReference: {fileID: 0}
+    - target: {fileID: 496870, guid: a3ace4cd0b1d90c46bb9bf09977be01e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 13.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 496870, guid: a3ace4cd0b1d90c46bb9bf09977be01e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -134.60251
+      objectReference: {fileID: 0}
+    - target: {fileID: 496870, guid: a3ace4cd0b1d90c46bb9bf09977be01e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 496870, guid: a3ace4cd0b1d90c46bb9bf09977be01e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 496870, guid: a3ace4cd0b1d90c46bb9bf09977be01e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 496870, guid: a3ace4cd0b1d90c46bb9bf09977be01e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 496870, guid: a3ace4cd0b1d90c46bb9bf09977be01e, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 191350, guid: a3ace4cd0b1d90c46bb9bf09977be01e, type: 2}
+      propertyPath: m_Name
+      value: Tiger_1 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a3ace4cd0b1d90c46bb9bf09977be01e, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &580147287
 Prefab:
   m_ObjectHideFlags: 0
@@ -723,13 +821,53 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d465c1b3b8d7e04da5a6171bc3153db, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD:ZPI-projekt/Assets/Glowna.unity
+--- !u!1001 &674943232
+=======
 --- !u!1001 &699418809
+>>>>>>> bc9482e3b948ccf560e83cb24ae21069d60d03f5:ZPI-projekt/Assets/scenes/Testowa.unity
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD:ZPI-projekt/Assets/Glowna.unity
+    - target: {fileID: 405248, guid: 4f01ef9bacc52334ca7f28d448cdfde0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -133.84886
+      objectReference: {fileID: 0}
+    - target: {fileID: 405248, guid: 4f01ef9bacc52334ca7f28d448cdfde0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 405248, guid: 4f01ef9bacc52334ca7f28d448cdfde0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -81.352615
+      objectReference: {fileID: 0}
+    - target: {fileID: 405248, guid: 4f01ef9bacc52334ca7f28d448cdfde0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 405248, guid: 4f01ef9bacc52334ca7f28d448cdfde0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405248, guid: 4f01ef9bacc52334ca7f28d448cdfde0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405248, guid: 4f01ef9bacc52334ca7f28d448cdfde0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 405248, guid: 4f01ef9bacc52334ca7f28d448cdfde0, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4f01ef9bacc52334ca7f28d448cdfde0, type: 2}
+=======
     - target: {fileID: 400866, guid: c911894fc71817346b040729752f1691, type: 2}
       propertyPath: m_LocalPosition.x
       value: 178.3
@@ -764,6 +902,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c911894fc71817346b040729752f1691, type: 2}
+>>>>>>> bc9482e3b948ccf560e83cb24ae21069d60d03f5:ZPI-projekt/Assets/scenes/Testowa.unity
   m_IsPrefabParent: 0
 --- !u!1001 &760015773
 Prefab:
@@ -948,6 +1087,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f01ef9bacc52334ca7f28d448cdfde0, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD:ZPI-projekt/Assets/Glowna.unity
+=======
 --- !u!1001 &933214325
 Prefab:
   m_ObjectHideFlags: 0
@@ -1193,6 +1334,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1536aebd505e1b6429c4f02b447ba313, type: 2}
   m_IsPrefabParent: 0
+>>>>>>> bc9482e3b948ccf560e83cb24ae21069d60d03f5:ZPI-projekt/Assets/scenes/Testowa.unity
 --- !u!1001 &1287924516
 Prefab:
   m_ObjectHideFlags: 0
@@ -1235,6 +1377,9 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d39f422d6cc9d5549a8f6d11a51df32e, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD:ZPI-projekt/Assets/Glowna.unity
+--- !u!1001 &1325555000
+=======
 --- !u!1001 &1404793541
 Prefab:
   m_ObjectHideFlags: 0
@@ -1278,46 +1423,59 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: a16ab605620e9cc4480f94672a016bc7, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1420062288
+>>>>>>> bc9482e3b948ccf560e83cb24ae21069d60d03f5:ZPI-projekt/Assets/scenes/Testowa.unity
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 407758, guid: 88e3605e053a12a43a5d012011097c7e, type: 2}
+    - target: {fileID: 400866, guid: c911894fc71817346b040729752f1691, type: 2}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:ZPI-projekt/Assets/Glowna.unity
+      value: -171.48923
+=======
       value: 126.9
+>>>>>>> bc9482e3b948ccf560e83cb24ae21069d60d03f5:ZPI-projekt/Assets/scenes/Testowa.unity
       objectReference: {fileID: 0}
-    - target: {fileID: 407758, guid: 88e3605e053a12a43a5d012011097c7e, type: 2}
+    - target: {fileID: 400866, guid: c911894fc71817346b040729752f1691, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4.8898742e-17
+      value: -15.238617
       objectReference: {fileID: 0}
-    - target: {fileID: 407758, guid: 88e3605e053a12a43a5d012011097c7e, type: 2}
+    - target: {fileID: 400866, guid: c911894fc71817346b040729752f1691, type: 2}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:ZPI-projekt/Assets/Glowna.unity
+      value: -96.211624
+=======
       value: 191
+>>>>>>> bc9482e3b948ccf560e83cb24ae21069d60d03f5:ZPI-projekt/Assets/scenes/Testowa.unity
       objectReference: {fileID: 0}
-    - target: {fileID: 407758, guid: 88e3605e053a12a43a5d012011097c7e, type: 2}
+    - target: {fileID: 400866, guid: c911894fc71817346b040729752f1691, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 407758, guid: 88e3605e053a12a43a5d012011097c7e, type: 2}
+    - target: {fileID: 400866, guid: c911894fc71817346b040729752f1691, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 407758, guid: 88e3605e053a12a43a5d012011097c7e, type: 2}
+    - target: {fileID: 400866, guid: c911894fc71817346b040729752f1691, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.5000001
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 407758, guid: 88e3605e053a12a43a5d012011097c7e, type: 2}
+    - target: {fileID: 400866, guid: c911894fc71817346b040729752f1691, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.49999994
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 407758, guid: 88e3605e053a12a43a5d012011097c7e, type: 2}
+    - target: {fileID: 400866, guid: c911894fc71817346b040729752f1691, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:ZPI-projekt/Assets/Glowna.unity
+      value: 1
+=======
       value: 15
+>>>>>>> bc9482e3b948ccf560e83cb24ae21069d60d03f5:ZPI-projekt/Assets/scenes/Testowa.unity
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 88e3605e053a12a43a5d012011097c7e, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: c911894fc71817346b040729752f1691, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1437956703
 Prefab:
@@ -1601,6 +1759,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f4917e045c25ba14eb2cd21d4622b415, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD:ZPI-projekt/Assets/Glowna.unity
+=======
 --- !u!1 &1791838157
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,6 +1788,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 28
+>>>>>>> bc9482e3b948ccf560e83cb24ae21069d60d03f5:ZPI-projekt/Assets/scenes/Testowa.unity
 --- !u!1001 &1814497816
 Prefab:
   m_ObjectHideFlags: 0
@@ -1712,6 +1873,84 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f78eb85d10756a74697a19a9b948d2f7, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD:ZPI-projekt/Assets/Glowna.unity
+--- !u!1 &1972937306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1972937310}
+  - 33: {fileID: 1972937309}
+  - 64: {fileID: 1972937308}
+  - 23: {fileID: 1972937307}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1972937307
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1972937306}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6943ceca6a527fe41955e0b81f31cc08, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &1972937308
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1972937306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1972937309
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1972937306}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1972937310
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1972937306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 50, y: 1, z: 50}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 25
+=======
+>>>>>>> bc9482e3b948ccf560e83cb24ae21069d60d03f5:ZPI-projekt/Assets/scenes/Testowa.unity
 --- !u!1001 &1992941665
 Prefab:
   m_ObjectHideFlags: 0
@@ -1758,6 +1997,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 78af1795f08e84e4f89c9b54a38c591d, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD:ZPI-projekt/Assets/Glowna.unity
+=======
 --- !u!1001 &2011811422
 Prefab:
   m_ObjectHideFlags: 0
@@ -1839,3 +2080,4 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 30
+>>>>>>> bc9482e3b948ccf560e83cb24ae21069d60d03f5:ZPI-projekt/Assets/scenes/Testowa.unity
