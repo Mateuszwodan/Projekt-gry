@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Everything : MonoBehaviour
 {
-    int health;
+    public int health;
     public UnityEngine.UI.Slider HealthBar;
     // Use this for initialization
     void Start()
