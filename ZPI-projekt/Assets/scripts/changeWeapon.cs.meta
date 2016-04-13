@@ -1,10 +1,18 @@
 fileFormatVersion: 2
 guid: bc2c4092eb74e284abe4dc5d54d8c5e6
-timeCreated: 1459958337
+timeCreated: 1460561081
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - gun1: {fileID: 21300000, guid: 1e3c1ada5416c4a4ab45315fdf52528e, type: 3}
+  - gun2: {fileID: 21300000, guid: 1d7e254920b8c11479f1facaab19a023, type: 3}
+  - gun3: {fileID: 21300000, guid: 8f62288a8378ecd44a8fa0f1581886b2, type: 3}
+  - ammo: {instanceID: 0}
+  - bullet: {instanceID: 0}
+  - bullet2: {instanceID: 0}
+  - cannon: {instanceID: 0}
+  - vehicle: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
