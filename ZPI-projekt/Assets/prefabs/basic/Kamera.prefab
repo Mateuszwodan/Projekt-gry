@@ -1,18 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &172162
+--- !u!1 &138238
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 404974}
-  - 20: {fileID: 2064586}
-  - 92: {fileID: 9213964}
-  - 124: {fileID: 12401152}
-  - 81: {fileID: 8180690}
-  - 114: {fileID: 11453710}
+  - 4: {fileID: 413886}
+  - 20: {fileID: 2044166}
+  - 92: {fileID: 9200842}
+  - 124: {fileID: 12469816}
+  - 81: {fileID: 8103514}
+  - 114: {fileID: 11428692}
+  - 114: {fileID: 11467536}
+  - 114: {fileID: 11416132}
   m_Layer: 0
   m_Name: Kamera
   m_TagString: MainCamera
@@ -20,24 +22,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &404974
+--- !u!4 &413886
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 172162}
+  m_GameObject: {fileID: 138238}
   m_LocalRotation: {x: -0.37818617, y: -0.09377167, z: 0.065440014, w: -0.91864014}
-  m_LocalPosition: {x: 0, y: 8, z: -10}
+  m_LocalPosition: {x: -1.48, y: 16.54, z: -18.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!20 &2064586
+--- !u!20 &2044166
 Camera:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 172162}
+  m_GameObject: {fileID: 138238}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -66,38 +68,66 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
---- !u!81 &8180690
+--- !u!81 &8103514
 AudioListener:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 172162}
+  m_GameObject: {fileID: 138238}
   m_Enabled: 1
---- !u!92 &9213964
+--- !u!92 &9200842
 Behaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 172162}
+  m_GameObject: {fileID: 138238}
   m_Enabled: 1
---- !u!114 &11453710
+--- !u!114 &11416132
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 172162}
+  m_GameObject: {fileID: 138238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11ca9225e1250949a47b57c71ea13a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainMenu: {fileID: 0}
+  Przyc1: {fileID: 0}
+  Przyc2: {fileID: 0}
+  Przyc3: {fileID: 0}
+  opisMisji: {fileID: 0}
+  tekstmisji: {fileID: 0}
+--- !u!114 &11428692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138238}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3599672372894bf4e87be1844c75403a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pojazd: {fileID: 0}
---- !u!124 &12401152
+--- !u!114 &11467536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8793e571da02db34192dd35f5a737ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!124 &12469816
 Behaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 172162}
+  m_GameObject: {fileID: 138238}
   m_Enabled: 1
 --- !u!1001 &100100000
 Prefab:
@@ -108,5 +138,5 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 172162}
+  m_RootGameObject: {fileID: 138238}
   m_IsPrefabParent: 1

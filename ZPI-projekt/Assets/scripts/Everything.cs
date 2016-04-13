@@ -18,10 +18,10 @@ public class Everything : MonoBehaviour
         if (health <= 0)
         {
             gameObject.SetActive(false);
-            Application.LoadLevel(0);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy_bullet")
         {
