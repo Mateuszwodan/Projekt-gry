@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Pocisk
-  - Burzacy
+  - Medkit
+  - Enemy_bullet
+  - Laser
   layers:
   - Default
   - TransparentFX

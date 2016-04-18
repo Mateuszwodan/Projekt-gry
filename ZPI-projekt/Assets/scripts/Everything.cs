@@ -8,7 +8,7 @@ public class Everything : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        health = 100;
+        health = 50;
     }
 
     // Update is called once per frame
@@ -21,14 +21,26 @@ public class Everything : MonoBehaviour
             UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }
     }
-    private void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision col)
     {
-        if (other.tag == "Enemy_bullet")
+        if(col.gameObject.tag == "Enemy_bullet")
         {
-            health = health - 5;
-            
-            other.gameObject.SetActive(false);
-           
+            health -= 10;
+            col.gameObject.SetActive(false);
+        }
+        if(col.gameObject.tag == "Medkit")
+        {
+            health += 25;
+            if (health > 100)
+                health = 100;
+            col.gameObject.SetActive(false);
+        }
+        if (col.gameObject.tag == "Laser")
+        {
+            health = 0;
+          
         }
     }
+
+
 }
