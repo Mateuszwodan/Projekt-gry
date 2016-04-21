@@ -24,7 +24,7 @@ public class changeWeapon : MonoBehaviour {
         // Use this for initialization
         void Start () {
         gun = 1;
-        ammo2 = 1;
+        ammo2 = 100;
         ammo3 = 0;
         changeWeap();
     }
@@ -57,7 +57,6 @@ public class changeWeapon : MonoBehaviour {
             if (gun == 1)
             {
                 GameObject kula = GameObject.Instantiate(bullet);
-                kula.tag = "bullet";
                 kula.transform.position = cannon.GetComponent<Transform>().position;
                 kula.transform.rotation = cannon.GetComponent<Transform>().rotation;
             }

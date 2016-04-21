@@ -3,9 +3,12 @@ using System.Collections;
 
 public class enemy_health : MonoBehaviour {
 
-    int health = 100;
-	// Use this for initialization
-	void Start () {
+    public int health = 100;
+    public int pocisk = 15;
+    public int burzacy = 25;
+
+    // Use this for initialization
+    void Start () {
 	
 	}
 	
@@ -18,12 +21,18 @@ public class enemy_health : MonoBehaviour {
     }
     void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "bullet")
+        if (other.gameObject.tag == "Pocisk")
         {
-            health = health - 5;
+            health = health - pocisk;
+            other.gameObject.SetActive(false);
+            Debug.Log("Trafion");
+
+        }
+        if (other.gameObject.tag == "Burzacy")
+        {
+            health = health - burzacy;
             other.gameObject.SetActive(false);
 
         }
-       
     }
 }
