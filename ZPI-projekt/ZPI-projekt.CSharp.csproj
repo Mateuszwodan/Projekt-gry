@@ -66,6 +66,7 @@
     <Compile Include="Assets\scripts\CollectingObjects.cs" />
     <Compile Include="Assets\scripts\Everything.cs" />
     <Compile Include="Assets\scripts\Exit_from_game.cs" />
+    <Compile Include="Assets\scripts\Laser.cs" />
     <Compile Include="Assets\scripts\Load_level.cs" />
     <Compile Include="Assets\scripts\back_to_game.cs" />
     <Compile Include="Assets\scripts\back_to_menu.cs" />
