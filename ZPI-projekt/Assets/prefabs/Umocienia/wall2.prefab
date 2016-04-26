@@ -10,8 +10,8 @@ GameObject:
   - 4: {fileID: 478796}
   - 33: {fileID: 3381870}
   - 23: {fileID: 2396838}
-  - 95: {fileID: 9583068}
   - 65: {fileID: 6507410}
+  - 114: {fileID: 11485146}
   m_Layer: 0
   m_Name: wall2
   m_TagString: Untagged
@@ -76,23 +76,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.8, y: 0.24105646, z: 1.8995073}
   m_Center: {x: 0.000000056312516, y: -0.000000056312476, z: 0.9447666}
---- !u!95 &9583068
-Animator:
-  serializedVersion: 3
+--- !u!114 &11485146
+MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 120518}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 334e05ed7ccfb3747a58dd2ae8282649, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67322e6c0e1738c42b9e71dd7f577330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
