@@ -20,6 +20,7 @@ public class Everything : MonoBehaviour
             gameObject.SetActive(false);
             UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }
+       
     }
     void OnCollisionEnter(Collision col)
     {
