@@ -58,6 +58,12 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -111,9 +117,7 @@
     <Compile Include="Assets\scripts\DestroyWall.cs" />
     <Compile Include="Assets\scripts\Everything.cs" />
     <Compile Include="Assets\scripts\Exit_from_game.cs" />
-    <Compile Include="Assets\scripts\Laser.cs" />
     <Compile Include="Assets\scripts\Load_level.cs" />
-    <Compile Include="Assets\scripts\Most_obsluga.cs" />
     <Compile Include="Assets\scripts\back_to_game.cs" />
     <Compile Include="Assets\scripts\back_to_menu.cs" />
     <Compile Include="Assets\scripts\bulletMove.cs" />
