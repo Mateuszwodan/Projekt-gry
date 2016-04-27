@@ -57,6 +57,9 @@ public class back_to_game : MonoBehaviour
             Przyc3.SetActive(false);
         }
     }
-   
 
+    public void powrot()
+    {
+        Application.LoadLevel(0);
+    }
 }

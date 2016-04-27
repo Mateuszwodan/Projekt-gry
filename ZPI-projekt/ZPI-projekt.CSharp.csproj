@@ -63,6 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\VolumetricLines\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
+    <Compile Include="Assets\VolumetricLines\ExampleScenes\ExampleScripts\CreateSinShapedLineStrip.cs" />
+    <Compile Include="Assets\VolumetricLines\ExampleScenes\ExampleScripts\ShotBehavior.cs" />
+    <Compile Include="Assets\VolumetricLines\Scripts\SetFovGlobalShaderVariable.cs" />
+    <Compile Include="Assets\VolumetricLines\Scripts\Utils\ExposePropertyAttribute.cs" />
+    <Compile Include="Assets\VolumetricLines\Scripts\Utils\TransformExtensionMethods.cs" />
+    <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineBehavior.cs" />
+    <Compile Include="Assets\VolumetricLines\Scripts\VolumetricLineStripBehavior.cs" />
+    <Compile Include="Assets\VolumetricLines\Scripts\VolumetricMultiLineBehavior.cs" />
     <Compile Include="Assets\prefabs\efekty broni\bomba czasowa\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\prefabs\efekty broni\bomba czasowa\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\prefabs\efekty broni\bomba czasowa\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -127,6 +136,12 @@
     <Compile Include="Assets\scripts\timeBomb.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\VolumetricLines\Shaders\VolumetricLineShaderAdditive.shader" />
+    <None Include="Assets\VolumetricLines\Shaders\VolumetricLineShaderAdditiveFast.shader" />
+    <None Include="Assets\VolumetricLines\Shaders\VolumetricLineShaderAlphaBlended.shader" />
+    <None Include="Assets\VolumetricLines\Shaders\VolumetricLineShaderAlphaBlendedFast.shader" />
+    <None Include="Assets\VolumetricLines\Shaders\VolumetricLineStripShaderAdditive.shader" />
+    <None Include="Assets\VolumetricLines\Shaders\VolumetricLineStripShaderAlphaBlended.shader" />
     <None Include="Assets\models\tank\Additional.txt" />
     <None Include="Assets\prefabs\efekty broni\bomba czasowa\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\prefabs\efekty broni\bomba czasowa\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
