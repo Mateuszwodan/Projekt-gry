@@ -18,7 +18,7 @@ public class Everything : MonoBehaviour
         if (health <= 0)
         {
             gameObject.SetActive(false);
-            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
         }
        
     }
@@ -38,8 +38,7 @@ public class Everything : MonoBehaviour
         }
         if (col.gameObject.tag == "Laser")
         {
-            health = 0;
-          
+            health = 0;          
         }
     }
 
