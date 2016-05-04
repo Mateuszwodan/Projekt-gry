@@ -17802,15 +17802,15 @@ Prefab:
       objectReference: {fileID: 2100000, guid: ef7ea779c4b06c44dbe1512ffb506838, type: 2}
     - target: {fileID: 499370, guid: d332cd220b6ca4c43b8b7601657cd022, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 472426, guid: d332cd220b6ca4c43b8b7601657cd022, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 457722, guid: d332cd220b6ca4c43b8b7601657cd022, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2360092, guid: d332cd220b6ca4c43b8b7601657cd022, type: 2}
       propertyPath: m_Materials.Array.data[0]
