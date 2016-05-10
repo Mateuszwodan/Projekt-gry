@@ -11,7 +11,7 @@ public class back_to_game : MonoBehaviour
     public GameObject Przyc4; //Restartowanie poziomu
     public GameObject opisMisji; //okno celu misji
     public Text tekstmisji; //tekst celu misji
-    string trescMisji = " jakas tresc misji";
+    public string trescMisji = " jakas tresc misji";
     bool showMission = false;
     // Use this for initialization
     void Start()
@@ -27,6 +27,11 @@ public class back_to_game : MonoBehaviour
             HandleMenu();          
         }
         
+    }
+
+    public void setTekstMisji(string tekst)
+    {
+        trescMisji = tekst;
     }
 
     public void HandleMenu()

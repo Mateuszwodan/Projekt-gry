@@ -16,6 +16,30 @@ class CollectingObjects : MonoBehaviour
     private void displayInfo()
     {
         // wyświetlenie informacji gdzie ma się udać gracz
+        string trescMisji = "";
+        string nazwaSceny = Application.loadedLevelName;
+
+        if(nazwaSceny.Equals("Przedmiescia"))
+        {
+            trescMisji = "Przedmiescia - info";
+        }
+
+        if (nazwaSceny.Equals("Srodmiescie"))
+        {
+            trescMisji = "Srodmiescie - info";
+        }
+
+        if (nazwaSceny.Equals("Centrum"))
+        {
+            trescMisji = "Centrum - info";
+        }
+
+        if (nazwaSceny.Equals("Pomocnicza"))
+        {
+            trescMisji = "Pomocnicza - info";
+        }
+
+        GetComponent<back_to_game>().setTekstMisji(trescMisji);
     }
 
     private void addAmmo2()

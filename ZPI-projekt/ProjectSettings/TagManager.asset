@@ -7,6 +7,9 @@ TagManager:
   - Medkit
   - Enemy_bullet
   - Laser
+  - Pocisk
+  - Burzacy
+  - Info
   layers:
   - Default
   - TransparentFX
