@@ -18,11 +18,11 @@ public class move_tank : MonoBehaviour {
     private Vector3 rotationDirection;
     private float factorSpeed;
 
-    public float range_of_enemy = 5;
+    public float range_of_enemy = 50;
     public bool toRight = false;
     public bool toDown = false;
     public bool stop = false;
-    public float maxSpeed = 2;
+    public float maxSpeed = 20;
 
     private Rigidbody myRigidbody;
     private Transform myTransform;
@@ -126,7 +126,7 @@ public class move_tank : MonoBehaviour {
 
         myRigidbody.velocity = new Vector3(maxSpeed * rightleft * factorSpeed, myRigidbody.velocity.y, maxSpeed * downup);
 
-        if (toRight)
+        if (toDown)
         {
             rotationDirection = (right.transform.position - transform.position).normalized;
         }
@@ -136,7 +136,7 @@ public class move_tank : MonoBehaviour {
         }
 
         Quaternion lookRotation = Quaternion.LookRotation(rotationDirection);
-        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * maxSpeed);
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * maxSpeed / 10);
     }
 
     private IEnumerator shoot()

@@ -10,5 +10,10 @@ public class destroy_wall : MonoBehaviour {
             other.gameObject.SetActive(false);
             gameObject.SetActive(false);
         }
+
+        if (other.gameObject.tag == "Pocisk")
+        {
+            other.gameObject.SetActive(false);
+        }
     }
 }

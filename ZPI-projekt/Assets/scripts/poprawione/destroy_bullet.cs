@@ -13,5 +13,9 @@ public class destroy_bullet : MonoBehaviour {
         {
             other.gameObject.SetActive(false);
         }
+        if (other.gameObject.tag == "Enemy_bullet")
+        {
+            other.gameObject.SetActive(false);
+        }
     }
 }

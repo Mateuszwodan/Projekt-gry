@@ -283,6 +283,7 @@ GameObject:
   - 33: {fileID: 3331304}
   - 23: {fileID: 2341918}
   - 65: {fileID: 6550470}
+  - 114: {fileID: 11443578}
   m_Layer: 0
   m_Name: Brickwall
   m_TagString: Untagged
@@ -46695,6 +46696,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.943823, y: 1.8551722, z: 3.1020677}
   m_Center: {x: 1.64107, y: 0.9330497, z: -0.26614308}
+--- !u!114 &11443578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67322e6c0e1738c42b9e71dd7f577330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
