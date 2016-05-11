@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 07a9095c5aa2ffb47aa5c26477174395
+timeCreated: 1462959758
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - hostage: {instanceID: 0}
+  - special_ammo: {instanceID: 0}
+  - flamethrower_ammo: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
