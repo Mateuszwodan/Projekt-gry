@@ -28,7 +28,7 @@ public class pop_up_menu : MonoBehaviour
         {
             show_menu();          
         }
-        
+        mission_text.text = mission_string;
     }
 
     public void set_mission_text(string text)

@@ -3,15 +3,37 @@ using System.Collections;
 
 public class load_level : MonoBehaviour {
 
-    public int which_level = 2;
-
+    public GameObject info;
     void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "Player")
+        string name_of_scene = Application.loadedLevelName;
+
+        if (name_of_scene.Equals("Przedmiescia"))
         {
-            Application.LoadLevel(which_level);
-            Debug.Log("Nowy Poziom");
+            if (other.gameObject.tag == "Player")
+            {
+                Application.LoadLevel("Srodmiescie");
+              
+            }
         }
-        Debug.Log("Nowy s");
+
+        if (name_of_scene.Equals("Srodmiescie") && info.active == false)
+        {
+            if (other.gameObject.tag == "Player")
+            {
+                Application.LoadLevel("Centrum");
+
+            }
+        }
+
+        if (name_of_scene.Equals("Centrum"))
+        {
+            if (other.gameObject.tag == "Player")
+            {
+                //Application.LoadLevel("Srodmiescie");
+
+            }
+        }
+
     }
 }

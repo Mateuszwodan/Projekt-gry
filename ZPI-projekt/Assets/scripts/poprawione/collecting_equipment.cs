@@ -5,12 +5,13 @@ using System;
 
 class collecting_equipment : MonoBehaviour
 {
-    public GameObject hostage; // zakładnik
-    public GameObject special_ammo;
-    public GameObject flamethrower_ammo;
+    //public GameObject hostage; // zakładnik
+    //public GameObject special_ammo;
+    //public GameObject flamethrower_ammo;
     public GameObject information_about_hostage;
     public GameObject information_about_mission;
     public Text number_of_bridges_text;
+    public pop_up_menu menu;
 
     public int number_of_bridges = 0;
 
@@ -21,20 +22,22 @@ class collecting_equipment : MonoBehaviour
         information_about_hostage.SetActive(false);
         information_about_mission.SetActive(false);
         addBridge(0);
+        //menu = GetComponent<pop_up_menu>();
     }
 
     private void show_hostage_information()
     {
         string objective_content = "";
         objective_content = "Zmienione info po wzięciu zakładników";
-        GetComponent<pop_up_menu>().set_mission_text(objective_content);
+        menu.set_mission_text(objective_content);
     }
 
     private void show_information()
     {
         string objective_content = "";
         objective_content = "Zmienione info po pierwszej części";
-        GetComponent<pop_up_menu>().set_mission_text(objective_content);
+        menu.set_mission_text(objective_content);
+        information_about_mission.gameObject.SetActive(true);
     }
 
     private void addBridge(int new_most)
@@ -54,18 +57,20 @@ class collecting_equipment : MonoBehaviour
         GetComponent<weapon>().number_of_flamethrower_reserve += 10;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Hostage"))
         {
             show_hostage_information();
-            Destroy(other.gameObject);
+            //Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
         }
 
-        if (other.gameObject.CompareTag("Info"))
+        if (other.gameObject.tag == "Info")
         {
             show_information();
-            Destroy(other.gameObject);
+            //Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
         }
 
         if (other.gameObject.CompareTag("Ammo2"))
@@ -112,7 +117,8 @@ class collecting_equipment : MonoBehaviour
             objective_content = "Pomocnicza - info";
         }
 
-        GetComponent<pop_up_menu>().set_mission_text(objective_content);
+        menu.set_mission_text(objective_content);
     }
+
 }
 
