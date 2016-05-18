@@ -206,6 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90a5f2b454b01d24db71e1b885aaf8b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  info: {fileID: 0}
 --- !u!114 &516118217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,8 +246,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 516118216}
-        m_MethodName: Loads
+      - m_Target: {fileID: 2041889754}
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -683,8 +684,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1027357500}
-        m_MethodName: exit_from_game
+      - m_Target: {fileID: 2041889754}
+        m_MethodName: Exit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -848,7 +849,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400068, guid: 3b24dcd5a66d3f74fa8acbb902de263b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 364.53
+      value: 360.7
       objectReference: {fileID: 0}
     - target: {fileID: 400068, guid: 3b24dcd5a66d3f74fa8acbb902de263b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -856,7 +857,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400068, guid: 3b24dcd5a66d3f74fa8acbb902de263b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -460.82
+      value: -459.2
       objectReference: {fileID: 0}
     - target: {fileID: 400068, guid: 3b24dcd5a66d3f74fa8acbb902de263b, type: 3}
       propertyPath: m_LocalRotation.x
@@ -876,7 +877,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400068, guid: 3b24dcd5a66d3f74fa8acbb902de263b, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: 3b24dcd5a66d3f74fa8acbb902de263b, type: 3}
       propertyPath: m_AABB.m_Center.y
@@ -999,7 +1000,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400004, guid: 9ee2b10b9b74d2344b1fadd3a2585712, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 349.56
+      value: 352.25
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 9ee2b10b9b74d2344b1fadd3a2585712, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1007,7 +1008,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 9ee2b10b9b74d2344b1fadd3a2585712, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -456.67
+      value: -455.66
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 9ee2b10b9b74d2344b1fadd3a2585712, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1411,7 +1412,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2017355622}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2041889754}
+        m_MethodName: Ending_text
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2017355622
@@ -1458,6 +1470,7 @@ GameObject:
   - 223: {fileID: 2041889752}
   - 114: {fileID: 2041889751}
   - 114: {fileID: 2041889750}
+  - 114: {fileID: 2041889754}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1544,3 +1557,14 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2041889754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2041889749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c128267cb1af05b40b47d18f12d227ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

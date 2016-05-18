@@ -118,9 +118,11 @@
     <Compile Include="Assets\prefabs\efekty broni\bomba czasowa\Standard Assets\Utility\WaypointProgressTracker.cs" />
     <Compile Include="Assets\scripts\Finish_level.cs" />
     <Compile Include="Assets\scripts\bridge.cs" />
+    <Compile Include="Assets\scripts\poprawione\Menu_nie_ruszac.cs" />
     <Compile Include="Assets\scripts\poprawione\bullet_move.cs" />
     <Compile Include="Assets\scripts\poprawione\camera.cs" />
     <Compile Include="Assets\scripts\poprawione\collecting_equipment.cs" />
+    <Compile Include="Assets\scripts\poprawione\credits.cs" />
     <Compile Include="Assets\scripts\poprawione\destroy_bullet.cs" />
     <Compile Include="Assets\scripts\poprawione\destroy_wall.cs" />
     <Compile Include="Assets\scripts\poprawione\enemy_health.cs" />

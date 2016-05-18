@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/scenes/Centrum.unity
   - enabled: 1
     path: Assets/scenes/Testowa.unity
+  - enabled: 1
+    path: Assets/scenes/Napisy_koncowe.unity

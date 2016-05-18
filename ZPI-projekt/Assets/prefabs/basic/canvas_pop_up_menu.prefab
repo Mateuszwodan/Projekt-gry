@@ -45,7 +45,6 @@ GameObject:
   - 114: {fileID: 11479462}
   - 114: {fileID: 11407178}
   - 114: {fileID: 11438218}
-  - 114: {fileID: 11494828}
   m_Layer: 5
   m_Name: canvas_pop_up_menu
   m_TagString: Untagged
@@ -1171,24 +1170,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &11494828
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 113542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07a9095c5aa2ffb47aa5c26477174395, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hostage: {fileID: 0}
-  special_ammo: {fileID: 0}
-  flamethrower_ammo: {fileID: 0}
-  information_about_hostage: {fileID: 115158}
-  information_about_mission: {fileID: 159224}
-  number_of_bridges_text: {fileID: 11479052}
-  number_of_bridges: 0
 --- !u!114 &11497660
 MonoBehaviour:
   m_ObjectHideFlags: 1
