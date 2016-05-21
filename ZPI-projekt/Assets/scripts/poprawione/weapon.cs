@@ -21,12 +21,15 @@ public class weapon : MonoBehaviour {
     public int number_of_special_ammo;
     public int number_of_flamethrower_reserve;
 
+    private AudioSource audio_cannon;
+
         void Start ()
     {
         choosen_gun = 1;
         number_of_special_ammo = 5;
         number_of_flamethrower_reserve = 0;
         set_image_of_weapon();
+        audio_cannon = GetComponent<AudioSource>();
     }
 	
 	void Update () {
@@ -61,6 +64,7 @@ public class weapon : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            audio_cannon.Play();
             if (choosen_gun == 1)
             {
                 GameObject kula = GameObject.Instantiate(normal_bullet);

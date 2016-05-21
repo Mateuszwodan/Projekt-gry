@@ -134,6 +134,8 @@
     <Compile Include="Assets\scripts\poprawione\pop_up_menu.cs" />
     <Compile Include="Assets\scripts\poprawione\rotate_sun.cs" />
     <Compile Include="Assets\scripts\poprawione\time_bomb.cs" />
+    <Compile Include="Assets\scripts\poprawione\update_position_of_gui.cs" />
+    <Compile Include="Assets\scripts\poprawione\volume_controller.cs" />
     <Compile Include="Assets\scripts\poprawione\weapon.cs" />
     <Compile Include="Assets\scripts\ray.cs" />
   </ItemGroup>
