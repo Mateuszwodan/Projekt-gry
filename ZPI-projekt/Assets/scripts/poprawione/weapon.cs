@@ -22,12 +22,15 @@ public class weapon : MonoBehaviour {
     public int number_of_flamethrower_reserve;
 
     private AudioSource audio_cannon;
+    private bool flame;
+    private int wraht_of_flame = 100;
+    private int range_of_fire = 10;
 
-        void Start ()
+    void Start ()
     {
         choosen_gun = 1;
         number_of_special_ammo = 5;
-        number_of_flamethrower_reserve = 0;
+        number_of_flamethrower_reserve = 5;
         set_image_of_weapon();
         audio_cannon = GetComponent<AudioSource>();
     }
@@ -35,7 +38,13 @@ public class weapon : MonoBehaviour {
 	void Update () {
         change_weapon();
         shoot();
+        if (flame)
+        {
+            fire();
+        }
     }
+
+
 
     private void change_weapon()
     {
@@ -84,7 +93,14 @@ public class weapon : MonoBehaviour {
             }
             else if (choosen_gun == 3)
             {
-                // Tu będzie odpalenie miotacza płomieni
+                if (number_of_flamethrower_reserve > 0 && !flame)
+                {
+                    // Start particle system
+                    number_of_flamethrower_reserve -= 1;
+                    number_of_ammo.GetComponent<Text>().text = number_of_flamethrower_reserve.ToString();
+                    flame = true;
+                    StartCoroutine(WaitForEndOfFire(2.0F));
+                }
             }
 
         }
@@ -108,5 +124,26 @@ public class weapon : MonoBehaviour {
             number_of_ammo.GetComponent<Text>().text = number_of_flamethrower_reserve.ToString();
         }
     }
+    private void fire()
+    {
+        Ray ray = new Ray(cannon.transform.position , cannon.transform.TransformDirection(Vector3.forward) * 5);
+        RaycastHit hit;
 
+        if (Physics.Raycast(ray, out hit, range_of_fire))
+        {
+            Debug.Log("Co trafilem: " + hit.collider.name);
+            if  (hit.collider.tag == "Enemy")
+            {
+                hit.collider.GetComponent<enemy_health>().health -= wraht_of_flame;            
+            }
+        }
+            
+    }
+
+    IEnumerator WaitForEndOfFire(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        flame = false;
+        // Stop particle system
+    }
 }

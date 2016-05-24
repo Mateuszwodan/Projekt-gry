@@ -15,6 +15,7 @@ TagManager:
   - Ammo3
   - Bridge
   - Fadder
+  - Enemy
   layers:
   - Default
   - TransparentFX
