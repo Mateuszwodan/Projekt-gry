@@ -13,6 +13,7 @@ public class weapon : MonoBehaviour {
 
     public GameObject normal_bullet;
     public GameObject special_bullet;
+    public GameObject flameThrower;
 
     public GameObject cannon;
     public GameObject vehicle;
@@ -97,9 +98,12 @@ public class weapon : MonoBehaviour {
                 {
                     // Start particle system
                     number_of_flamethrower_reserve -= 1;
+                    GameObject ft = GameObject.Instantiate(flameThrower);
+                    ft.transform.position = cannon.GetComponent<Transform>().position;
+                    ft.transform.rotation = cannon.GetComponent<Transform>().rotation;
                     number_of_ammo.GetComponent<Text>().text = number_of_flamethrower_reserve.ToString();
                     flame = true;
-                    StartCoroutine(WaitForEndOfFire(2.0F));
+                    StartCoroutine(WaitForEndOfFire(3.0F));
                 }
             }
 
