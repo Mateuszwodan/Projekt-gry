@@ -44,11 +44,10 @@ GameObject:
   - 4: {fileID: 460252}
   - 114: {fileID: 11495544}
   - 65: {fileID: 6529546}
-  - 65: {fileID: 6563458}
   - 54: {fileID: 5482624}
   m_Layer: 0
   m_Name: test
-  m_TagString: Untagged
+  m_TagString: Pocisk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,7 +100,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5f377cf865c7a8f41ae220bb3a9f06ef, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -127,7 +126,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4d195f6b366cb12498e91c409e2ac4e4, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -180,18 +179,6 @@ BoxCollider:
   m_GameObject: {fileID: 190890}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.12141183, y: 0.13516712, z: 0.89700747}
-  m_Center: {x: -0.000000074505806, y: 0.08336496, z: 0.051496267}
---- !u!65 &6563458
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 190890}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.12141183, y: 0.13516712, z: 0.89700747}
