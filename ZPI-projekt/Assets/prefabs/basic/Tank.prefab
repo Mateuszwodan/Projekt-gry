@@ -559,7 +559,7 @@ MonoBehaviour:
   left: {fileID: 0}
   right: {fileID: 0}
   player: {fileID: 0}
-  bullet: {fileID: 101026, guid: 5ad5ca906eb5d8f4a911f6dfab3a4cb3, type: 2}
+  bullet: {fileID: 153548, guid: 0af091e44b835a94d882e8bcc1707578, type: 2}
   cannon: {fileID: 182674}
   range_of_enemy: 50
   toRight: 1
