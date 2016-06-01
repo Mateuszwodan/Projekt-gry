@@ -99,7 +99,7 @@ class collecting_equipment : MonoBehaviour
 
         if (name_of_scene.Equals("Przedmiescia"))
         {
-            objective_content = "Przedmiescia - info";
+            objective_content = "Dojedz do konca drogi i nie daj sie zabic przez wrogow";
         }
 
         if (name_of_scene.Equals("Srodmiescie"))
