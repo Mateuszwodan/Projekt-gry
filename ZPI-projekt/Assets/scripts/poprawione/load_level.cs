@@ -30,7 +30,7 @@ public class load_level : MonoBehaviour {
         {
             if (other.gameObject.tag == "Player")
             {
-                //Application.LoadLevel("Srodmiescie");
+                Application.LoadLevel("Napisy_koncowe");
 
             }
         }
