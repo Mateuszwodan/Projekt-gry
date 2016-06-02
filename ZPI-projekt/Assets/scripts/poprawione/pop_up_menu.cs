@@ -14,6 +14,7 @@ public class pop_up_menu : MonoBehaviour
     public string mission_string = " jakas tresc misji";
 
     bool if_show_mission = false;
+    bool firsttime = true;
 
     void Start()
     {
@@ -26,7 +27,7 @@ public class pop_up_menu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            show_menu();          
+            show_menu();
         }
         mission_text.text = mission_string;
     }
@@ -38,6 +39,15 @@ public class pop_up_menu : MonoBehaviour
 
     public void show_menu()
     {
+       if (Time.timeScale != 0 && !firsttime)
+        {
+            Time.timeScale = 0;
+        }
+       else
+        {
+            Time.timeScale = 1;
+            firsttime = false;
+        }
        if(if_show_mission)
         {
             window_describe_of_objective.SetActive(!window_describe_of_objective.activeSelf);
