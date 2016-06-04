@@ -45,6 +45,7 @@ public class health_of_ship : MonoBehaviour
             if(img.color.a <= 0.01f)
             {
                 sceneStarting = false;
+                GameObject.FindWithTag("Fadder").SetActive(false);
             }
         }
         if (HealthBar.value <= 0)
