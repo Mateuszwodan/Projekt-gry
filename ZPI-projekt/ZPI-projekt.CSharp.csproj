@@ -135,6 +135,7 @@
     <Compile Include="Assets\scripts\poprawione\enemy_health.cs" />
     <Compile Include="Assets\scripts\poprawione\exit_from_game.cs" />
     <Compile Include="Assets\scripts\poprawione\health_of_ship.cs" />
+    <Compile Include="Assets\scripts\poprawione\intro.cs" />
     <Compile Include="Assets\scripts\poprawione\load_level.cs" />
     <Compile Include="Assets\scripts\poprawione\move_ship.cs" />
     <Compile Include="Assets\scripts\poprawione\move_tank.cs" />
