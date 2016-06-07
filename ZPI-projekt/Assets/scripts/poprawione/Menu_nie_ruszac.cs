@@ -24,5 +24,6 @@ public class Menu_nie_ruszac : MonoBehaviour {
     public void Exit()
     {
         Application.Quit();
+        Debug.Log("Exit");
     }
 }
