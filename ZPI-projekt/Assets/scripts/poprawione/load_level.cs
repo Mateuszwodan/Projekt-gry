@@ -4,6 +4,8 @@ using System.Collections;
 public class load_level : MonoBehaviour {
 
     public GameObject info;
+    public GameObject hostage;
+
     void OnCollisionEnter(Collision other)
     {
         string name_of_scene = Application.loadedLevelName;
@@ -26,7 +28,7 @@ public class load_level : MonoBehaviour {
             }
         }
 
-        if (name_of_scene.Equals("Centrum"))
+        if (name_of_scene.Equals("Centrum") && hostage.active == false)
         {
             if (other.gameObject.tag == "Player")
             {

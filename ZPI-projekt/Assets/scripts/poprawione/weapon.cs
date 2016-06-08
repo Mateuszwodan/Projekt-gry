@@ -23,15 +23,18 @@ public class weapon : MonoBehaviour {
     public int number_of_flamethrower_reserve;
 
     private AudioSource audio_cannon;
+    public AudioClip audio_clip_cannon;
+    public AudioClip audio_clip_flame;
+
     private bool flame;
-    private int wraht_of_flame = 100;
+    private int wraht_of_flame = 10;
     private int range_of_fire = 10;
 
     void Start ()
     {
         choosen_gun = 1;
-        number_of_special_ammo = 5;
-        number_of_flamethrower_reserve = 5;
+        //number_of_special_ammo = 5;
+        //number_of_flamethrower_reserve = 5;
         set_image_of_weapon();
         audio_cannon = GetComponent<AudioSource>();
     }
@@ -74,9 +77,11 @@ public class weapon : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            audio_cannon.Play();
+            
             if (choosen_gun == 1)
             {
+                audio_cannon.clip = audio_clip_cannon;
+                audio_cannon.Play();
                 GameObject kula = GameObject.Instantiate(normal_bullet);
                 kula.transform.position = cannon.GetComponent<Transform>().position;
                 kula.transform.rotation = cannon.GetComponent<Transform>().rotation;
@@ -85,6 +90,8 @@ public class weapon : MonoBehaviour {
             {
                 if (number_of_special_ammo > 0)
                 {
+                    audio_cannon.clip = audio_clip_cannon;
+                    audio_cannon.Play();
                     number_of_special_ammo -= 1;
                     GameObject kula = GameObject.Instantiate(special_bullet);
                     kula.transform.position = cannon.GetComponent<Transform>().position;
@@ -96,7 +103,8 @@ public class weapon : MonoBehaviour {
             {
                 if (number_of_flamethrower_reserve > 0 && !flame)
                 {
-                    // Start particle system
+                    audio_cannon.clip = audio_clip_flame;
+                    audio_cannon.Play();
                     number_of_flamethrower_reserve -= 1;
                     GameObject ft = GameObject.Instantiate(flameThrower);
                     ft.transform.position = cannon.GetComponent<Transform>().position;

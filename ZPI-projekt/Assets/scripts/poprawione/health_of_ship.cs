@@ -8,7 +8,7 @@ public class health_of_ship : MonoBehaviour
     int force_of_enemy_bullet = 10;
     int force_of_medkit = 25;
     public UnityEngine.UI.Slider HealthBar;
-    GameObject screen_fadder;
+    public GameObject screen_fadder;
     public float fadeSpeed = 1f;          // Speed that the screen fades to and from black.
     private bool sceneStarting = true;      // Whether or not the scene is still fading in.
     float timer = 0;
@@ -16,7 +16,7 @@ public class health_of_ship : MonoBehaviour
     void Start()
     {
         HealthBar.value = initial_health;
-        screen_fadder = GameObject.FindWithTag("Fadder");
+        //screen_fadder = GameObject.FindWithTag("Fadder");
         screen_fadder.SetActive(true);
     }
 
@@ -27,8 +27,8 @@ public class health_of_ship : MonoBehaviour
     }
     public void EndScene()
     {
-        GameObject.FindWithTag("Fadder").SetActive(true);
-        Image img = GameObject.FindWithTag("Fadder").GetComponent<Image>();
+        screen_fadder.SetActive(true);
+        Image img = screen_fadder.GetComponent<Image>();
         img.color = Color.Lerp(img.color, new Color(0, 0, 0, 1f), Time.deltaTime*fadeSpeed);
         if (img.color.a >= 0.9f)
         {

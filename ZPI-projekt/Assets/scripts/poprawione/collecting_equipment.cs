@@ -28,14 +28,15 @@ class collecting_equipment : MonoBehaviour
     private void show_hostage_information()
     {
         string objective_content = "";
-        objective_content = "Zmienione info po wzięciu zakładników";
+        objective_content = "Uciekaj z centrum";
         menu.set_mission_text(objective_content);
+        information_about_hostage.gameObject.SetActive(true);
     }
 
     private void show_information()
     {
         string objective_content = "";
-        objective_content = "Zmienione info po pierwszej części";
+        objective_content = "Udaj sie do centrum";
         menu.set_mission_text(objective_content);
         information_about_mission.gameObject.SetActive(true);
     }
@@ -62,14 +63,12 @@ class collecting_equipment : MonoBehaviour
         if (other.gameObject.CompareTag("Hostage"))
         {
             show_hostage_information();
-            //Destroy(other.gameObject);
             other.gameObject.SetActive(false);
         }
 
         if (other.gameObject.tag == "Info")
         {
             show_information();
-            //Destroy(other.gameObject);
             other.gameObject.SetActive(false);
         }
 
@@ -104,12 +103,12 @@ class collecting_equipment : MonoBehaviour
 
         if (name_of_scene.Equals("Srodmiescie"))
         {
-            objective_content = "Srodmiescie - info";
+            objective_content = "Zdobadz informacje o dokladnym polozeniu zakladnikow i ruszaj w strone centrum";
         }
 
         if (name_of_scene.Equals("Centrum"))
         {
-            objective_content = "Centrum - info";
+            objective_content = "Uratuj zakladnikow i uciekaj";
         }
 
         if (name_of_scene.Equals("Pomocnicza"))
